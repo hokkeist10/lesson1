@@ -1,0 +1,8 @@
+n = int(input('Введите число n:'))
+n_2 = (n*2)
+n_3 = (n*3)
+sn = str(n)
+sn_2 = str(n_2)
+sn_3 = str(n_3)
+count = (sn + sn_2 + sn_3)
+print(f'n + nn + nnn = {count}')
